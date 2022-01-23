@@ -29,6 +29,13 @@ class TestUser(unittest.TestCase):
 
         self.new_User.delete_user()
         self.assertEqual(len(User.contact_list),1)
+    
+      # method to create multiple users
+    def test_create_multiple_users(self):
+        self.new_User.save_user()
+        testUser = User('testUser','12345678')
+        testUser.save_user()
+        self.assertEqual(len(User.contact_list),2)
 
 if __name__ == '__main__':
     unittest.main()

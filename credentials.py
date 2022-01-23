@@ -14,3 +14,12 @@ class Credentials:
     def delete_account(self):
 
         Credentials.user_accounts.remove(self)
+
+    # method to display accounts
+    @classmethod
+    def display_accounts(cls):
+        for account in cls.user_accounts:
+            return cls.user_accounts
+
+
+   
