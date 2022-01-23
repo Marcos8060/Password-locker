@@ -5,4 +5,12 @@ class Credentials:
         self.user_name = user_name
         self.user_password = user_password
 
-    # 
+    # method to save a user account
+    def save_account(self):
+    
+        Credentials.user_accounts.append(self)
+
+    # method to delete a user account
+    def delete_account(self):
+
+        Credentials.user_accounts.remove(self)
