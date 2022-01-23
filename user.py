@@ -13,8 +13,8 @@ class User:
         User.contact_list.remove(self)
 
     # display users from the contact_list
-    # @classmethod
-    # def display_user(cls):
-    #     return cls.contact_list
+    @classmethod
+    def display_user(cls):
+        return cls.contact_list
         
 
