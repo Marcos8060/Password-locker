@@ -4,7 +4,7 @@
 
 ## Description
 
-#### Password locker is python program that runs in the terminal where users can store their passwords for various accounts.
+ Password locker is python program that runs in the terminal where users can store their passwords for various accounts.
 
 ## Setup and Installation Requirements
 
